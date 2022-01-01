@@ -1,35 +1,31 @@
-import logo from './logo.svg';
+import { BrowserRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Navigation from './Pages/Navigation/Navigation';
+import Register from './Pages/Register/Register';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>Pet Shop</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h2>Pranto </h2>
-        <h2>Pranto 2</h2>
-        <h2>Pranto 3</h2>
-        <h2>Sabbir</h2>
-        <h2>Sabbir 2</h2>
-        <h2>Sabbir 3</h2>
-        <h1>Sabbir 4</h1>
-        <h1>Sabbir 5</h1>
-        <h2>Tonny</h2>
-        <h2>Tonny 2</h2>
-        <h2>tonny 3</h2>
-      </header>
+      <BrowserRouter>
+      <Navigation></Navigation>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/register">
+            <Register></Register>
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

@@ -19,6 +19,7 @@ function App() {
           Learn React
         </a>
         <h2>Pranto </h2>
+        <h2>Pranto 2</h2>
       </header>
     </div>
   );

@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <h2>Pranto </h2> 
+        <h2>Pranto </h2>
       </header>
     </div>
   );

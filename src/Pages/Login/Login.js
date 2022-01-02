@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Login.css';
 
 const Login = () => {
+  const [data, setData] = useState({})
+  const handelOnBlur = e =>{
+    const inputValue = e.target.name;
+    const Value = e.target.value;
+    const newData = {...data};
+    newData[inputValue] = Value;
+    setData(newData)
+    console.log(newData);
+  }
+  const handelBtn = e =>{
+    e.preventDefault()
+  }
     return (
         <div>
             <div className="btn-style login-style row">
@@ -12,9 +24,14 @@ const Login = () => {
                 <Col lg={6}>
                   <div className="input">
                   <h2>Login</h2>
-                  <form>
+                  <form onSubmit={handelBtn}>
                     <label htmlFor="email"></label>
-                      <input type="email" placeholder='Enter your email' id="email"/>
+                      <input
+                       type="email"
+                       placeholder='Enter your email'
+                       id="email"
+                       onBlur={handelOnBlur}
+                         />
                       <br /><br />
 
                       <label htmlFor="password"></label>

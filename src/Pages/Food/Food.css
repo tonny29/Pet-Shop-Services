@@ -1,0 +1,11 @@
+.food-margin{
+    margin: 0px;
+}
+.icon{
+    color: brown;
+    font-size: 45px;
+}
+.foodimg img{
+    width: 600px;
+    height: 500px;
+}

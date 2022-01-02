@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Login.css';
 
 const Login = () => {
     return (
         <div>
-            <h1>This is login page</h1>
             <div className="btn-style login-style row">
              <Col lg={6}>
              </Col>   

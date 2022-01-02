@@ -1,11 +1,12 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Register.css';
 
 const Register = () => {
     return (
         <div>
-            <h1>this is register page</h1>
+            
             <div className="btn-style contact-style row">
             <Col lg={6}>
             </Col>

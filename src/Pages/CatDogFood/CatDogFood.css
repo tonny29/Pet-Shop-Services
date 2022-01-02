@@ -1,0 +1,10 @@
+.all-food h1{
+    margin-right: 40%;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

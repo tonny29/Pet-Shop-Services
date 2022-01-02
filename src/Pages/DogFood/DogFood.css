@@ -1,0 +1,34 @@
+.dog-food{
+    margin: 0px;
+    margin-top: 40px;
+    
+}
+.dog-food h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.dog-food h2{
+    font-weight: bold;
+    color: brown;
+}
+.dog-food h5{
+    font-weight: bold;
+}
+.dog-food img{
+    width: 100%;
+    margin-left:-23px;
+}
+.dog-food button{
+    background-color: rgba(243, 170, 170, 0.829);
+      color: black;
+      margin-left: 30px;
+      padding: 5px 25px 5px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid rgb(184, 72, 72);
+      border-radius: 0px 10px 10px 35px;
+}
+.dog-food button:hover{
+    background-color: brown;
+      color: whitesmoke;
+}

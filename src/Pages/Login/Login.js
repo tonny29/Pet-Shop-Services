@@ -7,9 +7,8 @@ const Login = () => {
     return (
         <div>
             <div className="btn-style login-style row">
-             <Col lg={6}>
-             </Col>   
-                <Col lg={6}>
+               
+                <Col lg={12}>
                   <div className="input">
                   <h2>Login</h2>
                   <form>

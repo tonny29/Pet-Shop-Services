@@ -2,9 +2,9 @@ import {faHeart, faTemperatureHigh,faDrumstickBite, faTrophy} from '@fortawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import './Food.css';
+import './Treatment.css';
 
-const Food = () => {
+const Treatment = () => {
     return (
         <div className='row food-margin'>
             <Col lg={6}>
@@ -37,4 +37,4 @@ const Food = () => {
     );
 };
 
-export default Food;
+export default Treatment;

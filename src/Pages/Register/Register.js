@@ -8,9 +8,7 @@ const Register = () => {
         <div>
             
             <div className="btn-style contact-style row">
-            <Col lg={6}>
-            </Col>
-                <Col lg={6}>
+                <Col lg={12}>
                     
                         <div className="input">
                         <form>
@@ -30,7 +28,7 @@ const Register = () => {
                            <input type="password" placeholder='re-enter your password' required/>
                         </form>
                         <p>Already have an account?<Link to="/login">Login</Link></p>
-                        <button> Google Sign In</button>
+                        <button><i class="fab fa-google"></i>{' '} Google Sign In</button>
                         </div>
                     
                 

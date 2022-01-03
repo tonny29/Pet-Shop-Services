@@ -13,7 +13,7 @@ const CatDogFood = () => {
         <div>
             <div className='all-food'>
             <h1>ALL <span style={{color:'brown'}}>AIR-DRIED FOOD</span> FOR PETS</h1>
-            <p>Inspired by the centuries-old technique of naturally preserving meats, ready to serve <br /> raw-inspired foods with nature’s goodness locked in.</p>
+            <p>Inspired by the centuries-old technique of naturally preserving meats, ready to serve <br /> raw-inspired foods with nature’s goodness locked in.Food is assential for all pets.</p>
         </div>
         <div className='display-grid'>
             {

@@ -13,26 +13,30 @@ const Aboutus = () => {
                 <div className='row'>
                     <Col lg={3}>
                         <div className='card-style'>
-                        <img src="https://pmrpressrelease.com/wp-content/uploads/2018/12/Pet-Food.jpg" alt="" />
-                        <p>one part to learn</p>
+                        <img src="https://media.istockphoto.com/photos/border-collie-in-a-kennel-picture-id173656433?k=20&m=173656433&s=612x612&w=0&h=OLtKcvFQVnYkQPnrQI2nK_du9iWnmHzsKIgQRCzukMs=" alt="" />
+                        <h4>Dog Boarding</h4>
+                        <p>While you’re on holiday, here’s where furry friends will spend their time.</p>
                         </div>
                     </Col>
                     <Col lg={3}>
                     <div className='card-style'>
-                    <img src="https://www.petfoodindustry.com/ext/resources/Images-by-month-year/20_08/Pet-food-bulk-close-up.jpg" alt="" />
-                        <p>one part to learn</p>
+                    <img src="https://s36537.pcdn.co/wp-content/uploads/2019/06/Cat-with-sunglasses.jpg.optimal.jpg" alt="" />
+                    <h4>Cat Boarding</h4>
+                        <p>We have highest quality accommodations for even the fussiest feline.</p>
                     </div>
                     </Col>
                     <Col lg={3}>
                     <div className='card-style'>
-                    <img src="https://st4.depositphotos.com/3516927/24752/i/1600/depositphotos_247524006-stock-photo-wet-and-dry-dog-food.jpg" alt="" />
-                        <p>one part to learn</p>
+                    <img src="https://media.istockphoto.com/photos/yorkshire-terrier-puppy-surrounded-by-hands-holding-groomer-tools-picture-id858041808?k=20&m=858041808&s=612x612&w=0&h=BZB_yl4nh6w5F110oCmCQXnMw2LFBIan3ULeUv2cMbQ=" alt="" />
+                    <h4>Pet Grooming</h4>
+                        <p>Your dog will leave feeling happy, looking and smelling great.</p>
                     </div>
                     </Col>
                     <Col lg={3}>
                     <div className='card-style'>
-                    <img src="https://www.kazior5.com/wp-content/uploads/2019/05/pet-food.jpg" alt="" />
-                        <p>one part to learn</p>
+                    <img src="https://w7.pngwing.com/pngs/444/106/png-transparent-pet-sitting-pet-taxi-dog-cat-taxi-cartoon-mammal-pet-car-thumbnail.png" alt="" />
+                    <h4>Pet Taxi</h4>
+                        <p>If you are short on time we can arrange taxi transport for you.</p>
                     </div>
                     </Col>
                 </div>

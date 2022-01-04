@@ -1,0 +1,23 @@
+.allAbout img{
+    width: 60%;
+    height: 600px;
+    margin-right: 40%;
+    margin-left: -40px;
+    margin-top: -25px;
+}
+.allAbout{
+    margin: 20px;
+}
+.aboutus{
+    margin-top: -70px;
+}
+.card-style img{
+    width: 314px;
+    height: 200px;
+    margin-left: 0%;
+    margin: 0px;
+}
+.card-style{
+    border: 2px solid black;
+    
+}

@@ -8,16 +8,35 @@
 .allAbout{
     margin: 20px;
 }
+.allAbout h1{
+    font-weight: bold;
+}
+.allAbout h4{
+    color: brown;
+    font-weight: bold;
+    font-size: 26px;
+}
 .aboutus{
-    margin-top: -70px;
+    margin-top: -10%;
 }
 .card-style img{
-    width: 314px;
+    width: 307px;
     height: 200px;
     margin-left: 0%;
     margin: 0px;
+    border-radius: 0% 25% 10% 20%;
 }
 .card-style{
-    border: 2px solid black;
-    
+    border: 2px solid rgba(165, 42, 42, 0.466);
+    padding: 5px;
+    border-radius: 0% 20% 0% 20%;
+    box-shadow: 15px 5px 7px rgba(0, 0, 0, 0.144);
+}
+.win-style img{
+    border-radius: 20%;
+    border: 3px solid black;
+    width: 307px;
+    height: 200px;
+    margin-left: 0%;
+    margin: 0px;
 }

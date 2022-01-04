@@ -5,3 +5,7 @@
     margin-top: 20px;
     margin-bottom: 10%;
 }
+.image-style:hover{
+    border: 3px solid brown;
+    box-shadow: 10px 5px 10px rgba(165, 42, 42, 0.39);
+}

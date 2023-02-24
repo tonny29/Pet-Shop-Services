@@ -16,7 +16,7 @@ const Home = () => {
                     <br />
                     <p>Are You Here For Your Pets Food Choices <span style={{fontSize:'50px'}}>?</span>
                         Do You Want To Know How To Manage Pets<span style={{fontSize:'50px'}}>?</span> <br />
-                        Then You Are At The Right Place To Learn About Managing Your Pets.
+                
                     </p>
                     <button>For Dog</button>
                     <button>For Cat</button>

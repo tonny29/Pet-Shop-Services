@@ -11,7 +11,7 @@ const Home = () => {
                     <img src={homeImg} alt="" />
                 </div>
                 <div class="text-block">
-                    <h1>Hi, we are <br /> <span style={{ color: "rgb(373, 177, 177)" }}>Pawsitive</span> </h1>
+                    <h1>Hi, we are <br /> <span style={{ color: "rgb(353, 177, 177)" }}>Pawsitive</span> </h1>
                     <hr />
                     <br />
                     <p>Are You Here For Your Pets Food Choices <span style={{fontSize:'50px'}}>?</span>

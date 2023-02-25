@@ -14,7 +14,7 @@ const Aboutus = () => {
             <div className='aboutus'>
                 <h1> <span style={{color:'brown'}}>ABOUT</span> US</h1>
                 <p>From the time our friends sniff their way through the door until they wag their <br /> tails out in the afternoon, we cater to their nature.</p>
-                <div className='row'>
+                <div className='row '>
                     <Col lg={3}>
                         <div className='card-style'>
                         <img src="https://media.istockphoto.com/photos/border-collie-in-a-kennel-picture-id173656433?k=20&m=173656433&s=612x612&w=0&h=OLtKcvFQVnYkQPnrQI2nK_du9iWnmHzsKIgQRCzukMs=" alt="" />
@@ -31,7 +31,7 @@ const Aboutus = () => {
                     </Col>
                     <Col lg={3}>
                     <div className='card-style'>
-                    <img src="https://media.istockphoto.com/photos/yorkshire-terrier-puppy-surrounded-by-hands-holding-groomer-tools-picture-id858041808?k=20&m=858041808&s=612x612&w=0&h=BZB_yl4nh6w5F110oCmCQXnMw2LFBIan3ULeUv2cMbQ=" alt="" />
+                    <img src="https://www.acontentbox.org/wp-content/uploads/2021/03/dog-grooming-scissors.jpg" alt="" />
                     <h4>Pet Grooming</h4>
                         <p>Your dog will leave feeling happy, looking and smelling great.</p>
                     </div>
@@ -52,7 +52,7 @@ const Aboutus = () => {
                 <div className='row'>
                     <Col lg={3}>
                         <div className='card-style'>
-                        <img src="https://i.dlpng.com/static/png/7000069_preview.png" alt="" />
+                        <img src="https://image.freepik.com/free-photo/dry-cat-food-bowl-isolated-white-background_102618-2009.jpg" alt="" />
                         </div>
                     </Col>
                     <Col lg={3}>

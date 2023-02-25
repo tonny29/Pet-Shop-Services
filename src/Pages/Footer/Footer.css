@@ -2,16 +2,15 @@
     color: black;
     background-color: rgba(165, 42, 42, 0.185);
     margin-bottom: 0px;
-    padding-top: 8px;
     margin: 0px;
     border:2px solid #9b0f0f79;
-    border-radius: 40% 5% 15% 0%;
+    border-radius: 25% 0% 0% 0%;
   }
   .footer-img img{
     margin: 20px;
-    height: 200px;
+    height: 150px;
     width: 400px;
-    border-radius: 10px;
+    
   }
   .footer-one{
       margin-top: 40px;

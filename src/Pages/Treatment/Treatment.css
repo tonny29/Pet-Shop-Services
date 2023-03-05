@@ -10,3 +10,10 @@
     width: 600px;
     height: 500px;
 }
+.foodManufacturer{
+    background-color: #8f888819;
+    margin: 10px;
+border: 1px solid rgba(165, 42, 42, 0.101);
+border-radius: 8px;
+padding: 10px;
+}

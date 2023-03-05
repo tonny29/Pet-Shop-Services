@@ -15,33 +15,32 @@ const Treatment = () => {
     <div className="row food-margin">
       <Col lg={6}>
         <h1>
-          <span style={{ color: "brown",fontWeight:"bold" }}>PREMIUM</span> Pet Food <br />{" "}
-          Manufacturer
+          <span style={{ color: "brown",fontWeight:"bold" }}>PREMIUM</span><br /> Pet Food Manufacturer <br /><span style={{ color: "brown",fontWeight:"bold" }}>SHOULD HAVE</span>
         </h1>
-        <div className="row">
-          <Col lg={6}>
+        <div className="row ms-3">
+          <Col lg={5} className="foodManufacturer">
             <div className="icon">
               <FontAwesomeIcon icon={faHeart} />
             </div>
-            <h4>SUPERIOR SAFETY PRACTICES</h4>
+            <h4>Superior Safty Practices</h4>
           </Col>
-          <Col lg={6}>
+          <Col lg={5} className="foodManufacturer">
             <div className="icon">
               <FontAwesomeIcon icon={faTemperatureHigh} />
             </div>
-            <h4>OPTIMAL DRYING AIR TEMPERATURES</h4>
+            <h4>Optimal Drying Air Temperatures</h4>
           </Col>
-          <Col lg={6}>
+          <Col lg={5} className="foodManufacturer">
             <div className="icon">
               <FontAwesomeIcon icon={faDrumstickBite} />
             </div>
-            <h4>EXCEPTIONAL INGREDIENT QUALITY</h4>
+            <h4>Exceptional Ingredient Quality</h4>
           </Col>
-          <Col lg={6}>
+          <Col lg={5} className="foodManufacturer">
             <div className="icon">
               <FontAwesomeIcon icon={faTrophy} />
             </div>
-            <h4>MADE BY NUTRITION EXPERTS</h4>
+            <h4>Made By Nutrition Experts</h4>
           </Col>
         </div>
       </Col>

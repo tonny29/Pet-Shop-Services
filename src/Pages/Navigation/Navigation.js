@@ -28,7 +28,7 @@ const Navigation = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
+        </Container> 
       </Navbar>
     </div>
   );

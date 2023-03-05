@@ -1,6 +1,6 @@
 .dog-food{
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 80px;
     
 }
 .dog-food h1{
@@ -10,9 +10,6 @@
 .dog-food h2{
     font-weight: bold;
     color: brown;
-}
-.dog-food h5{
-    font-weight: bold;
 }
 .dog-food img{
     width: 100%;

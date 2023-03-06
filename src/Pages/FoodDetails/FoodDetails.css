@@ -1,0 +1,10 @@
+
+.SelectImage img{
+    height: 400px;
+    width: 450px;
+    border: 5px solid rgba(165, 42, 42, 0.407);
+    border-radius: 0px 120px 0px 120px;
+}
+.foodDetails{
+    text-align: left;
+}

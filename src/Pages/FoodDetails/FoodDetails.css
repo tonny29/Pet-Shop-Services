@@ -1,4 +1,12 @@
-
+.FoodDetailHead{
+    text-align: left;
+    margin-left: 40px;
+}
+.FoodDetailHead h1{
+    margin-top: 10px;
+    color: brown;
+    font-weight: 700;
+}
 .SelectImage img{
     height: 400px;
     width: 450px;

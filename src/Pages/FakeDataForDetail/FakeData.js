@@ -1,57 +1,57 @@
 const fakedata=[
   {
     "id": 1,
-    "name": "",
+    "name": "DOG",
     "totalCost": 1000,
-    "image":"https://soperth.com.au/wp-content/uploads/2022/05/LYKA_RooRecipe_200921_YMund-1254-1-HR-1024x683.jpg"
+    "image":"https://petkeen.com/wp-content/uploads/2022/08/Golden-retriever-beautiful-lovely-pair_Rala3030_Shutterstock-e1667288750640.jpg"
   },
   {
     "id": 2,
-    "name": "",
+    "name": "LOVEBIRD",
     "totalCost": 2000,
-    "image":"https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fdogoday.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1229904411.jpeg"
+    "image":"http://3.bp.blogspot.com/-EOb50MvS0NE/U4HdlV_mSYI/AAAAAAAABOA/JN83ab8R7AQ/s1600/uiopp.jpg"
   },
   {
     "id": 3,
-    "name": "",
+    "name": "COW",
     "totalCost": 1050,
-    "image":"https://static01.nyt.com/images/2019/07/01/us/29xp-dogfood/29xp-dogfood-videoSixteenByNineJumbo1600.jpg"
+    "image":"https://img.freepik.com/free-photo/closeup-shot-black-brown-jersey-calves-farmland_181624-45068.jpg"
   },
   {
     "id": 4,
-    "name": "",
+    "name": "CAT",
     "totalCost": 500,
-    "image":"https://target.scene7.com/is/image/Target/8wk3_Pets_Kindfull_PremiumCat-210715-1626385072300?wid=668&qlt=80&fmt=webp"
+    "image":"https://media.wired.com/photos/5ed06ca9fbf7b2147038a8a9/4:3/w_2132,h_1599,c_limit/Gear-New-Pet-1168772154.jpg"
   },
   {
     "id": 5,
-    "name": "",
+    "name": "RABBIT",
     "totalCost": 2200,
-    "image":"https://www.seniorcatwellness.com/wp-content/uploads/2020/05/what-are-the-best-vegetables-for-cats.jpg"
+    "image":"https://www.vetvoice.com.au/imagevault/publishedmedia/lwkzdfggf4ljwqa86nse/rabbit.jpg"
   },
   {
     "id": 6,
-    "name": "",
+    "name": "DUCK & CHICKEN",
     "totalCost": 1000,
-    "image":"https://images.avana.asia/176597/images/x-large/988b25164d00f34b5f14dc52e588cad5d332c7e3"
+    "image":"https://cdn.backyardpoultry.iamcountryside.com/wp-content/uploads/sites/3/2022/10/mixed-flock-ducks-chickens.jpg"
   },
   {
     "id": 7,
-    "name": "",
+    "name": "FISH",
     "totalCost": 800,
-    "image":"https://www.kazior5.com/wp-content/uploads/2019/05/pet-food.jpg"
+    "image":"https://i.cdn.newsbytesapp.com/images/l77920230215184621.jpeg?tr=w-720"
   },
   {
     "id": 8,
-    "name": "",
+    "name": "PIGEON",
     "totalCost": 1200,
-    "image":"https://www.purina.co.nz/sites/default/files/styles/ttt_image_510/public/2020-12/Can%20Cats%20Eat%20Dog%20Food2.jpg?itok=Sjq6j434"
+    "image":"https://www.pigeonrescue.org/wp-content/uploads/2020/06/Kit-Iris-120116-IMG_7607-1024x768.jpg"
   },
   {
     "id": 9,
-    "name": "",
+    "name": "GOAT",
     "totalCost": 500,
-    "image":"https://brightsideanimals.org/wp-content/uploads/2019/01/food-bank.jpg"
+    "image":"https://npr.brightspotcdn.com/a4/7c/848d7d7542aeb991f47a773524ba/jorge-salvador-unsplash.jpg"
   }
 ]
 export default fakedata;

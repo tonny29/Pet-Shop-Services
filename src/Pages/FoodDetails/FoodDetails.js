@@ -9,8 +9,11 @@ const FoodDetails = () => {
   const details = fakedata.find((data) => data.id === parseInt(detailId));
   return (
     <div>
-      <h1>this is detail page: {detailId}</h1>
-      <Container>
+      <div className="FoodDetailHead">
+        <h1>The necessity of Providing Pets with Proper Nutrition -</h1>
+        <p>For the growth of tissue and organs, animals require protein and other nutrients.Additionally, protein is crucial for animal growth in feed. <br />When given the proper amount of protein and other minerals, animals prefer to remain active and energized throughout the day.</p>
+      </div>
+      <Container className="mt-5">
         <Row>
           <Col xs={6}>
             <div className="SelectImage">
@@ -20,8 +23,8 @@ const FoodDetails = () => {
           </Col>
           <Col xs={6}>
             <div className="foodDetails">
-                <h2>Name Of Food: {details.name}</h2>
-                <p>This Food Have Below Protins:</p>
+                <h2>{details.name}</h2>
+                <p>These vitamins in this food:</p>
                 <ul>
                     <li>Calsium</li>
                     <li>Calsium</li>

@@ -16,3 +16,16 @@
 .foodDetails{
     text-align: left;
 }
+.PetName{
+    font-weight: 900;
+    color: rgb(164, 110, 110);
+    font-size: 45px;
+    text-shadow: rgba(200, 56, 56, 0.709) 1px 0 8px;
+    letter-spacing: 5px;
+}
+.hrStyle{
+    width: 50%;
+    margin-left: 25%;
+    border-bottom: 4px solid rgba(248, 8, 8, 0.388);
+    border-radius: 10px;
+}

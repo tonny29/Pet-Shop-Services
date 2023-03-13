@@ -3,13 +3,18 @@ const fakedata=[
     "id": 1,
     "name": "DOG",
     "totalCost": 1000,
-    "image":"https://petkeen.com/wp-content/uploads/2022/08/Golden-retriever-beautiful-lovely-pair_Rala3030_Shutterstock-e1667288750640.jpg"
+    "image":"https://petkeen.com/wp-content/uploads/2022/08/Golden-retriever-beautiful-lovely-pair_Rala3030_Shutterstock-e1667288750640.jpg",
+    "typeOne":"calsium",
+    "typeTwo":"vitamins",
+    "typeThree":"minaral",
   },
   {
     "id": 2,
     "name": "LOVEBIRD",
     "totalCost": 2000,
-    "image":"http://3.bp.blogspot.com/-EOb50MvS0NE/U4HdlV_mSYI/AAAAAAAABOA/JN83ab8R7AQ/s1600/uiopp.jpg"
+    "image":"http://3.bp.blogspot.com/-EOb50MvS0NE/U4HdlV_mSYI/AAAAAAAABOA/JN83ab8R7AQ/s1600/uiopp.jpg",
+    "typeOne":"calsium",
+    "typeTwo":"vitamins",
   },
   {
     "id": 3,

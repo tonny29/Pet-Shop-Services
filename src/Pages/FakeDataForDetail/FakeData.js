@@ -4,59 +4,115 @@ const fakedata=[
     "name": "DOG",
     "totalCost": 1000,
     "image":"https://petkeen.com/wp-content/uploads/2022/08/Golden-retriever-beautiful-lovely-pair_Rala3030_Shutterstock-e1667288750640.jpg",
-    "typeOne":"calsium",
-    "typeTwo":"vitamins",
-    "typeThree":"minaral",
+    "VitaminOne":"Fat-Soluble Vitamins",
+    "VitaminTwo":"Water-Soluble Vitamins",
+    "VitaminThree":"Minerals",
+    "VitaminFour":"Proteins & Amino Acids",
+    "VitaminFive":"Fats",
+    "VitaminSix":"Carbohydrates",
+    "VitaminSeven":"Vitamins(A, E, K, D3)"
   },
   {
     "id": 2,
     "name": "LOVEBIRD",
     "totalCost": 2000,
     "image":"http://3.bp.blogspot.com/-EOb50MvS0NE/U4HdlV_mSYI/AAAAAAAABOA/JN83ab8R7AQ/s1600/uiopp.jpg",
-    "typeOne":"calsium",
-    "typeTwo":"vitamins",
+    "VitaminOne":"Seeds",
+    "VitaminTwo":"Nuts",
+    "VitaminThree":"Barks",
+    "VitaminFour":"Grains",
+    "VitaminFive":"Fruits",
+    "VitaminSix":"Edible Flowers",
+    "VitaminSeven":"Nectar"
   },
   {
     "id": 3,
     "name": "COW",
     "totalCost": 1050,
-    "image":"https://img.freepik.com/free-photo/closeup-shot-black-brown-jersey-calves-farmland_181624-45068.jpg"
+    "image":"https://img.freepik.com/free-photo/closeup-shot-black-brown-jersey-calves-farmland_181624-45068.jpg",
+    "VitaminOne":"Grasses",
+    "VitaminTwo":"Legumes",
+    "VitaminThree":"Alfalfa",
+    "VitaminFour":"Clover",
+    "VitaminFive":"Hay",
+    "VitaminSix":"Minerals & Vitamins",
+    "VitaminSeven":"Soybean Meal"
   },
   {
     "id": 4,
     "name": "CAT",
     "totalCost": 500,
-    "image":"https://media.wired.com/photos/5ed06ca9fbf7b2147038a8a9/4:3/w_2132,h_1599,c_limit/Gear-New-Pet-1168772154.jpg"
+    "image":"https://media.wired.com/photos/5ed06ca9fbf7b2147038a8a9/4:3/w_2132,h_1599,c_limit/Gear-New-Pet-1168772154.jpg","VitaminOne":"Asparagus",
+    "VitaminTwo":"Boiled Plain Rice",
+    "VitaminThree":"Broccoli",
+    "VitaminFour":"Cooked Egg Whites",
+    "VitaminFive":"Cooked barley and Oats",
+    "VitaminSix":"Cooked Chicken",
+    "VitaminSeven":"Any Kind Of Cat Food"
   },
   {
     "id": 5,
     "name": "RABBIT",
     "totalCost": 2200,
-    "image":"https://www.vetvoice.com.au/imagevault/publishedmedia/lwkzdfggf4ljwqa86nse/rabbit.jpg"
+    "image":"https://www.vetvoice.com.au/imagevault/publishedmedia/lwkzdfggf4ljwqa86nse/rabbit.jpg",
+    "VitaminOne":"Green vegetables",
+    "VitaminTwo":"Leafy Vegetables",
+    "VitaminThree":"Hay",
+    "VitaminFour":"Butter Lettuce",
+    "VitaminFive":"Carrot Tops",
+    "VitaminSix":"Coriander",
+    "VitaminSeven":"Fruits(Apple, Banana, Grapes etc.)"
   },
   {
     "id": 6,
     "name": "DUCK & CHICKEN",
     "totalCost": 1000,
-    "image":"https://cdn.backyardpoultry.iamcountryside.com/wp-content/uploads/sites/3/2022/10/mixed-flock-ducks-chickens.jpg"
+    "image":"https://cdn.backyardpoultry.iamcountryside.com/wp-content/uploads/sites/3/2022/10/mixed-flock-ducks-chickens.jpg",
+    "VitaminOne":"Cereal Grains",
+    "VitaminTwo":"Cereal Byproducts",
+    "VitaminThree":"Fats and Oils",
+    "VitaminFour":"Protein meals",
+    "VitaminFive":"Miscellaneous raw ingredients",
+    "VitaminSix":"Minerals and vitamins",
+    "VitaminSeven":"Feed additives" 
   },
   {
     "id": 7,
     "name": "FISH",
     "totalCost": 800,
-    "image":"https://i.cdn.newsbytesapp.com/images/l77920230215184621.jpeg?tr=w-720"
+    "image":"https://i.cdn.newsbytesapp.com/images/l77920230215184621.jpeg?tr=w-720",
+    "VitaminOne":"TAIYO Special Fish Food",
+    "VitaminTwo":"TUNAI Fish Food for Aquarium",
+    "VitaminThree":"Tetra Bits Complete Fish Food",
+    "VitaminFour":"Optimum Highly Nutritious Fish Food",
+    "VitaminFive":"Boltz Freeze Dried Blood Worms Fish Food",
+    "VitaminSix":"Taiyo Pluss Discovery Premium Spirulina and Spinach Flakes",
+    "VitaminSeven":"Hikari Adult Tropical Food Sticks"
   },
   {
     "id": 8,
     "name": "PIGEON",
     "totalCost": 1200,
-    "image":"https://www.pigeonrescue.org/wp-content/uploads/2020/06/Kit-Iris-120116-IMG_7607-1024x768.jpg"
+    "image":"https://images.theconversation.com/files/477588/original/file-20220804-21966-qtymxo.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop",
+    "VitaminOne":"Berries",
+    "VitaminTwo":"Seeds",
+    "VitaminThree":"Grains",
+    "VitaminFour":"Nuts",
+    "VitaminFive":"Fats",
+    "VitaminSix":"Vegetables",
+    "VitaminSeven":"Grit (for digestion purposes)"
   },
   {
     "id": 9,
     "name": "GOAT",
     "totalCost": 500,
-    "image":"https://npr.brightspotcdn.com/a4/7c/848d7d7542aeb991f47a773524ba/jorge-salvador-unsplash.jpg"
+    "image":"https://npr.brightspotcdn.com/a4/7c/848d7d7542aeb991f47a773524ba/jorge-salvador-unsplash.jpg","VitaminOne":" Alfalfa hay",
+    "VitaminTwo":"Pasture and forage crops",
+    "VitaminThree":"Grass hay",
+    "VitaminFour":"Chaffhaye",
+    "VitaminFive":"Food supplements for goats",
+    "VitaminSix":"Garden and kitchen Scrap",
+    "VitaminSeven":"Grain"
   }
 ]
 export default fakedata;

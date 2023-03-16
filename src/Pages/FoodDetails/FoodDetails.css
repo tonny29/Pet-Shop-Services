@@ -29,3 +29,14 @@
     border-bottom: 4px solid rgba(248, 8, 8, 0.388);
     border-radius: 10px;
 }
+.hrStyleTwo{
+    width: 40%;
+    border-bottom: 2px solid rgba(248, 8, 8, 0.388);
+}
+.hrStyleThree{
+    width: 48%;
+    border-bottom: 2px solid rgba(248, 8, 8, 0.388);
+}
+.giveFood h3{
+    font-weight: bold;
+}

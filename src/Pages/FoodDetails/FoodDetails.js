@@ -52,13 +52,15 @@ const FoodDetails = () => {
                 cholesterol, and blood pressure levels. By providing us with
                 companionship, pets can help us manage loneliness and despair.
               </p>
-              <div>
+              <div className="giveFood">
+              <hr className="hrStyleTwo" />
                 <h3>
                   Should Give To{" "}
-                  <span style={{ fontWeight: "bolder", color: "brown" }}>
+                  <span style={{color: "brown" }}>
                     {details.name}
                   </span>
                 </h3>
+                <hr className="hrStyleTwo" />
                 <ul>
                   <li>{details.VitaminOne}</li>
                   <li>{details.VitaminTwo}</li>
@@ -70,21 +72,23 @@ const FoodDetails = () => {
                 </ul>
               </div>
               {/* shouldn't give to  */}
-              <div>
+              <div className="giveFood">
+              <hr className="hrStyleThree" />
                 <h3>
                   Should Not Give To{" "}
-                  <span style={{ fontWeight: "bolder", color: "brown" }}>
+                  <span style={{color: "brown" }}>
                     {details.name}
                   </span>
                 </h3>
+                <hr className="hrStyleThree" />
                 <ul>
-                  <li>{details.VitaminOne}</li>
-                  <li>{details.VitaminTwo}</li>
-                  <li>{details.VitaminThree}</li>
-                  <li>{details.VitaminFour}</li>
-                  <li>{details.VitaminFive}</li>
-                  <li>{details.VitaminSix}</li>
-                  <li>{details.VitaminSeven}</li>
+                  <li>{details.notOne}</li>
+                  <li>{details.notTwo}</li>
+                  <li>{details.notThree}</li>
+                  <li>{details.notFour}</li>
+                  <li>{details.notFive}</li>
+                  <li>{details.notSix}</li>
+                  <li>{details.notSeven}</li>
                 </ul>
               </div>
             </div>

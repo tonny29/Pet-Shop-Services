@@ -10,7 +10,15 @@ const fakedata=[
     "VitaminFour":"Proteins & Amino Acids",
     "VitaminFive":"Fats",
     "VitaminSix":"Carbohydrates",
-    "VitaminSeven":"Vitamins(A, E, K, D3)"
+    "VitaminSeven":"Vitamins(A, E, K, D3)",
+
+    "notOne":"Onions, Garlic and Chives",
+    "notTwo":"Chocolate",
+    "notThree":"Macadamia Nuts",
+    "notFour":"Corn on the cob",
+    "notFive":"Avacoda",
+    "notSix":"Artificila Sweetener",
+    "notSeven":"Cooked Bones",
   },
   {
     "id": 2,
@@ -23,7 +31,15 @@ const fakedata=[
     "VitaminFour":"Grains",
     "VitaminFive":"Fruits",
     "VitaminSix":"Edible Flowers",
-    "VitaminSeven":"Nectar"
+    "VitaminSeven":"Nectar",
+
+    "notOne":"Avocado",
+    "notTwo":"Caffeine",
+    "notThree":"Chocolate",
+    "notFour":"Salt",
+    "notFive":"Fat",
+    "notSix":"Fruit pits and apple seeds",
+    "notSeven":"Xylitol",
   },
   {
     "id": 3,
@@ -36,7 +52,15 @@ const fakedata=[
     "VitaminFour":"Clover",
     "VitaminFive":"Hay",
     "VitaminSix":"Minerals & Vitamins",
-    "VitaminSeven":"Soybean Meal"
+    "VitaminSeven":"Soybean Meal",
+
+    "notOne":"Lupine",
+    "notTwo":"Death Camas",
+    "notThree":"Nightshades",
+    "notFour":"Poison Hemlock",
+    "notFive":"Water Hemlock",
+    "notSix":"Larkspurs",
+    "notSeven":"Brussel Sprouts",
   },
   {
     "id": 4,
@@ -48,7 +72,15 @@ const fakedata=[
     "VitaminFour":"Cooked Egg Whites",
     "VitaminFive":"Cooked barley and Oats",
     "VitaminSix":"Cooked Chicken",
-    "VitaminSeven":"Any Kind Of Cat Food"
+    "VitaminSeven":"Any Kind Of Cat Food",
+
+    "notOne":"Alcohol, Wine, Beer",
+    "notTwo":"Chocolate",
+    "notThree":"Dog Food",
+    "notFour":"Grapes & Raisins",
+    "notFive":"Milk & Dairy Products",
+    "notSix":"Onions, Garlic & Chives",
+    "notSeven":"Raw/Undercooked Meat, Egg & Fish",
   },
   {
     "id": 5,
@@ -61,7 +93,15 @@ const fakedata=[
     "VitaminFour":"Butter Lettuce",
     "VitaminFive":"Carrot Tops",
     "VitaminSix":"Coriander",
-    "VitaminSeven":"Fruits(Apple, Banana, Grapes etc.)"
+    "VitaminSeven":"Fruits(Apple, Banana, Grapes etc.)",
+
+    "notOne":"Avocados",
+    "notTwo":"Chocolate",
+    "notThree":"Fruit seeds/Pits",
+    "notFour":"Raw Onions, leeks, Garlic",
+    "notFive":"Meat, Eggs, Dairy Products",
+    "notSix":"Broad Beans and Kidney Beans",
+    "notSeven":"Iceberg Lettuce",
   },
   {
     "id": 6,
@@ -74,7 +114,15 @@ const fakedata=[
     "VitaminFour":"Protein meals",
     "VitaminFive":"Miscellaneous raw ingredients",
     "VitaminSix":"Minerals and vitamins",
-    "VitaminSeven":"Feed additives" 
+    "VitaminSeven":"Feed additives" ,
+
+    "notOne":"Fruit seeds/Pits",
+    "notTwo":"Crackers",
+    "notThree":"White potatoes",
+    "notFour":"Citrus fruits",
+    "notFive":"Raw potatoes",
+    "notSix":"Onions, Garlic & Chives",
+    "notSeven":"Raw/Undercooked Meat, Egg & Fish",
   },
   {
     "id": 7,
@@ -87,7 +135,15 @@ const fakedata=[
     "VitaminFour":"Optimum Highly Nutritious Fish Food",
     "VitaminFive":"Boltz Freeze Dried Blood Worms Fish Food",
     "VitaminSix":"Taiyo Pluss Discovery Premium Spirulina and Spinach Flakes",
-    "VitaminSeven":"Hikari Adult Tropical Food Sticks"
+    "VitaminSeven":"Hikari Adult Tropical Food Sticks" ,
+
+    "notOne":"Fatty Meat",
+    "notTwo":"Crunchy Greens",
+    "notThree":"Crackers",
+    "notFour":"Dog Food",
+    "notFive":"Beef, Chicken",
+    "notSix":"Cooking Oils",
+    "notSeven":"Any foods that are too fatty",
   },
   {
     "id": 8,
@@ -100,7 +156,15 @@ const fakedata=[
     "VitaminFour":"Nuts",
     "VitaminFive":"Fats",
     "VitaminSix":"Vegetables",
-    "VitaminSeven":"Grit (for digestion purposes)"
+    "VitaminSeven":"Grit (for digestion purposes)",
+
+    "notOne":"Avocado",
+    "notTwo":"Caffeine",
+    "notThree":"Chocolate",
+    "notFour":"Salt",
+    "notFive":"Fat",
+    "notSix":"Fruit pits and apple seeds",
+    "notSeven":"Xylitol",
   },
   {
     "id": 9,
@@ -112,7 +176,15 @@ const fakedata=[
     "VitaminFour":"Chaffhaye",
     "VitaminFive":"Food supplements for goats",
     "VitaminSix":"Garden and kitchen Scrap",
-    "VitaminSeven":"Grain"
+    "VitaminSeven":"Grain",
+
+    "notOne":"Lupine",
+    "notTwo":"Death Camas",
+    "notThree":"Nightshades",
+    "notFour":"Poison Hemlock",
+    "notFive":"Water Hemlock",
+    "notSix":"Larkspurs",
+    "notSeven":"Brussel Sprouts",
   }
 ]
 export default fakedata;

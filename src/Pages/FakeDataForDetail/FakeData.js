@@ -4,6 +4,7 @@ const fakedata=[
     "name": "DOG",
     "totalCost": 1000,
     "image":"https://petkeen.com/wp-content/uploads/2022/08/Golden-retriever-beautiful-lovely-pair_Rala3030_Shutterstock-e1667288750640.jpg",
+
     "VitaminOne":"Fat-Soluble Vitamins",
     "VitaminTwo":"Water-Soluble Vitamins",
     "VitaminThree":"Minerals",
@@ -19,6 +20,14 @@ const fakedata=[
     "notFive":"Avacoda",
     "notSix":"Artificila Sweetener",
     "notSeven":"Cooked Bones",
+
+    "ImageOne":"https://microbenotes.com/wp-content/uploads/2018/08/Fat-soluble-vitamins-Vitamin-A-D-E-and-K.jpg",
+    "ImageTwo":"https://solotutes.com/media//uc/uploads/water_vit.jpg",
+    "ImageThree":"http://cdn.shopify.com/s/files/1/2304/8547/articles/beef-sweet-potato-dog-food-ingredients-1600-x-1000.jpg?v=1620341698",
+    "ImageFour":"https://www.dogsnaturallymagazine.com/wp-content/uploads/2022/05/DN-website-783x410-Protein.jpg",
+    "ImageFive":"https://serverless-s3-images.s3.amazonaws.com/f0b9a73e-b02b-4ddd-81d8-536003e6957domegas.png",
+    "ImageSix":"https://dogfriendlyscene.co.uk/wp-content/uploads/2022/02/collection-of-carbs-in-a-collage-and-a-dog.png",
+    "ImageSeven":"https://sp-ao.shortpixel.ai/client/to_auto,q_lossless,ret_img,w_696,h_447/https://www.feedandadditive.com/wp-content/uploads/Global-Feed-Vitamins-Market-and-Trends1.jpg",
   },
   {
     "id": 2,
@@ -40,6 +49,14 @@ const fakedata=[
     "notFive":"Fat",
     "notSix":"Fruit pits and apple seeds",
     "notSeven":"Xylitol",
+
+    "ImageOne":"https://hips.hearstapps.com/hmg-prod/images/bowl-of-sunflower-seeds-royalty-free-image-1673637175.jpg?crop=0.668xw:1.00xh;0.311xw,0&resize=1200:*",
+    "ImageTwo":"https://images.squarespace-cdn.com/content/v1/5b179d99a2772c64cb22caa2/bb0553c4-619c-43bb-a6a8-9440fd82eaf7/mixed+bird+nuts",
+    "ImageThree":"https://cdn.shopify.com/s/files/1/2028/5817/products/Natural-Perches-Bird-Ladders-Perches-Bird-Nerd-Parrot-Supplies-Australia_2048x@2x.jpg?v=1654798112",
+    "ImageFour":"https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-4foodgroups_grains_detailfeatureb.jpg?sfvrsn=3c347197_6",
+    "ImageFive":"https://www.thesprucepets.com/thmb/9ELD2WsurtQKgfTJ4vWUkN_kwIo=/3000x0/filters:no_upscale():strip_icc()/safe-fruits-for-birds-390622_Final-5bbd0d6ec9e77c0051dd8f07.png",
+    "ImageSix":"https://birdscoo.com/wp-content/uploads/2020/11/Edible-Flowers-1.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2",
+    "ImageSeven":"https://www.yummymummykitchen.com/wp-content/uploads/2022/02/hummingbird-food-recipe-1.jpg",
   },
   {
     "id": 3,
@@ -61,12 +78,22 @@ const fakedata=[
     "notFive":"Water Hemlock",
     "notSix":"Larkspurs",
     "notSeven":"Brussel Sprouts",
+
+    "ImageOne":"https://cdn.britannica.com/00/128400-050-6BF86C0E/ryegrass.jpg?w=400&h=300&c=crop",
+    "ImageTwo":"https://world-crops.com/wp-content/uploads/Legumes-Peas.jpg",
+    "ImageThree":"https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/bltb025bbab4d675589/638f815cb8bf2b03327bc209/0215W2-1460A-1540x800.jpg",
+    "ImageFour":"https://littleraesbakery.com/wp-content/uploads/2020/03/shamrock-vs-clover-2.jpg",
+    "ImageFive":"https://d2r55xnwy6nx47.cloudfront.net/uploads/2018/09/Hay_1300Lede.jpg",
+    "ImageSix":"http://axonanimalhealthltd.com/wp-content/uploads/2020/07/DUROCAL-GOLD-LEVEL.jpg",
+    "ImageSeven":"https://img3.21food.com/img/product/2020/11/19/food3052441605774932006582.jpg",
   },
   {
     "id": 4,
     "name": "CAT",
     "totalCost": 500,
-    "image":"https://media.wired.com/photos/5ed06ca9fbf7b2147038a8a9/4:3/w_2132,h_1599,c_limit/Gear-New-Pet-1168772154.jpg","VitaminOne":"Asparagus",
+    "image":"https://media.wired.com/photos/5ed06ca9fbf7b2147038a8a9/4:3/w_2132,h_1599,c_limit/Gear-New-Pet-1168772154.jpg",
+
+    "VitaminOne":"Asparagus",
     "VitaminTwo":"Boiled Plain Rice",
     "VitaminThree":"Broccoli",
     "VitaminFour":"Cooked Egg Whites",
@@ -81,12 +108,21 @@ const fakedata=[
     "notFive":"Milk & Dairy Products",
     "notSix":"Onions, Garlic & Chives",
     "notSeven":"Raw/Undercooked Meat, Egg & Fish",
+
+    "ImageOne":"https://catscaneat.com/wp-content/uploads/2023/03/cat-eat-asparagus.jpg",
+    "ImageTwo":"https://www.hepper.com/wp-content/uploads/2021/07/rice-in-a-bowl.jpg",
+    "ImageThree":"https://inattentiveme.files.wordpress.com/2012/01/cat-with-broccoli.jpg",
+    "ImageFour":"https://www.pumpkin.care/wp-content/uploads/2020/12/The-Incredible-Egg-1024x536.jpg",
+    "ImageFive":"https://www.purina.co.uk/sites/default/files/2022-02/GettyImages-625811660%20%282%29.jpg",
+    "ImageSix":"https://t1.ea.ltmcdn.com/en/posts/5/7/8/3_chicken_treats_for_cats_2875_2_600.jpg",
+    "ImageSeven":"https://ph-test-11.slatic.net/p/445ef62926effb87529336b6062bf90f.jpg",
   },
   {
     "id": 5,
     "name": "RABBIT",
     "totalCost": 2200,
     "image":"https://www.vetvoice.com.au/imagevault/publishedmedia/lwkzdfggf4ljwqa86nse/rabbit.jpg",
+
     "VitaminOne":"Green vegetables",
     "VitaminTwo":"Leafy Vegetables",
     "VitaminThree":"Hay",
@@ -102,12 +138,21 @@ const fakedata=[
     "notFive":"Meat, Eggs, Dairy Products",
     "notSix":"Broad Beans and Kidney Beans",
     "notSeven":"Iceberg Lettuce",
+
+    "ImageOne":"https://www.theeducatedrabbit.com/images/IMG_6227.jpg",
+    "ImageTwo":"https://lionheadrabbitcare.com/wp-content/uploads/2019/11/what-vegetables-can-rabbits-eat.jpg",
+    "ImageThree":"https://www.vets4pets.com/siteassets/species/rabbit/two-rabbits-eating-hay.jpg?width=1040",
+    "ImageFour":"https://rabbitscout.com/wp-content/uploads/2021/08/brown-rabbit-and-lettuce-1024x512.jpg",
+    "ImageFive":"http://1.bp.blogspot.com/-Qv-df_rYGf4/U7C6ytz5DFI/AAAAAAAADJ8/Vc_QA3_bb_8/s1600/3.jpg",
+    "ImageSix":"https://rabbits.life/wp-content/uploads/2013/07/cilantro.jpg",
+    "ImageSeven":"https://rabbits.life/wp-content/uploads/2014/02/Can-I-Feed-My-Rabbit-Fruit.jpg",
   },
   {
     "id": 6,
     "name": "DUCK & CHICKEN",
     "totalCost": 1000,
     "image":"https://cdn.backyardpoultry.iamcountryside.com/wp-content/uploads/sites/3/2022/10/mixed-flock-ducks-chickens.jpg",
+
     "VitaminOne":"Cereal Grains",
     "VitaminTwo":"Cereal Byproducts",
     "VitaminThree":"Fats and Oils",
@@ -123,6 +168,14 @@ const fakedata=[
     "notFive":"Raw potatoes",
     "notSix":"Onions, Garlic & Chives",
     "notSeven":"Raw/Undercooked Meat, Egg & Fish",
+
+    "ImageOne":"https://images.theconversation.com/files/389530/original/file-20210315-21-ajek7r.jpg?ixlib=rb-1.1.0&rect=37%2C0%2C4955%2C3330&q=45&auto=format&w=926&fit=clip",
+    "ImageTwo":"https://www.allaboutfeed.net/app/uploads/2020/12/001_14_rb-image-2832902-400x250.jpeg",
+    "ImageThree":"https://i0.wp.com/poultryfeedformulation.com/wp-content/uploads/2017/03/Poultry-Feed-Formulation-Ingredients-Used.jpg?resize=500%2C375&ssl=1",
+    "ImageFour":"https://www.raising-happy-chickens.com/images/sprouting-lentils.jpg",
+    "ImageFive":"https://www.cn-pellet.com/d/file/p/2020/12-11/79d2d19725c744139c3965b3aff26ba0.jpg",
+    "ImageSix":"https://renata-ltd.com/wp-content/uploads/2015/03/Animal-Health-Nutrition-Rena-Breeder-Powder.jpg",
+    "ImageSeven":"https://cdn.openpr.com/S/a/Sa24775624_g.jpg",
   },
   {
     "id": 7,
@@ -144,6 +197,14 @@ const fakedata=[
     "notFive":"Beef, Chicken",
     "notSix":"Cooking Oils",
     "notSeven":"Any foods that are too fatty",
+    
+    "ImageOne":"https://www.taiyogroup.in/wp-content/uploads/2021/01/Taiyo-Special-Fish-Food.jpg",
+    "ImageTwo":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71fGlnIcl+L._SY355_.jpg",
+    "ImageThree":"https://sagormart.com.bd/wp-content/uploads/2020/06/Tetra-Bits-25.jpg-2-600x581.jpg",
+    "ImageFour":"https://chaldn.com/_mpimage/optimum-highly-nutritious-food-for-all-aquarium-fish-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127413&q=best&v=1",
+    "ImageFive":"https://cdn.shopify.com/s/files/1/0591/5223/6751/products/Frame1-2022-03-04T185444.391_1.png?v=1677142364&width=1000",
+    "ImageSix":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51iL3FxLbUL.jpg",
+    "ImageSeven":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/711kCeLDchL._SL1485_.jpg",
   },
   {
     "id": 8,
@@ -165,6 +226,14 @@ const fakedata=[
     "notFive":"Fat",
     "notSix":"Fruit pits and apple seeds",
     "notSeven":"Xylitol",
+
+    "ImageOne":"https://hips.hearstapps.com/hmg-prod/images/bowl-of-sunflower-seeds-royalty-free-image-1673637175.jpg?crop=0.668xw:1.00xh;0.311xw,0&resize=1200:*",
+    "ImageTwo":"https://images.squarespace-cdn.com/content/v1/5b179d99a2772c64cb22caa2/bb0553c4-619c-43bb-a6a8-9440fd82eaf7/mixed+bird+nuts",
+    "ImageThree":"https://cdn.shopify.com/s/files/1/2028/5817/products/Natural-Perches-Bird-Ladders-Perches-Bird-Nerd-Parrot-Supplies-Australia_2048x@2x.jpg?v=1654798112",
+    "ImageFour":"https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-4foodgroups_grains_detailfeatureb.jpg?sfvrsn=3c347197_6",
+    "ImageFive":"https://www.thesprucepets.com/thmb/9ELD2WsurtQKgfTJ4vWUkN_kwIo=/3000x0/filters:no_upscale():strip_icc()/safe-fruits-for-birds-390622_Final-5bbd0d6ec9e77c0051dd8f07.png",
+    "ImageSix":"https://birdscoo.com/wp-content/uploads/2020/11/Edible-Flowers-1.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2",
+    "ImageSeven":"https://www.yummymummykitchen.com/wp-content/uploads/2022/02/hummingbird-food-recipe-1.jpg",
   },
   {
     "id": 9,
@@ -185,6 +254,14 @@ const fakedata=[
     "notFive":"Water Hemlock",
     "notSix":"Larkspurs",
     "notSeven":"Brussel Sprouts",
+
+    "ImageOne":"https://cms-static.wehaacdn.com/hayandforage-com/images/1TwoThings_ph.3605.jpg",
+    "ImageTwo":"https://agronomy.unl.edu/research/range-pasture-forages/ForageCropPasture/ForageCrop-Pasture_800x500.jpg",
+    "ImageThree":"https://baled.co.uk/wp-content/uploads/2020/09/Baled-Grass-Hay.jpg",
+    "ImageFour":"https://www.doublelfeed.com/assets/img/chaffhaye.png",
+    "ImageFive":"https://www.purinamills.com/getmedia/c0386335-61f6-4fc7-93eb-fbe91ddb9784/Product_Goat_Purina_Goat-Grower.png?width=300&height=430&ext=.png",
+    "ImageSix":"https://www.woohome.com/wp-content/uploads/2016/04/regrow-vegetable-kitchen.jpg",
+    "ImageSeven":"https://www.world-grain.com/ext/resources/Article-Images/2020/02/Focus-on-Uzbekistan_wholegrains_shutterstock_Nov-2014_E.jpg?height=667&t=1580745162&width=1080",
   }
 ]
 export default fakedata;

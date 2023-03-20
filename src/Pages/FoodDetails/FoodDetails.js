@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import fakedata from "../FakeDataForDetail/FakeData";
 import "animate.css";
@@ -52,33 +52,13 @@ const FoodDetails = () => {
                 cholesterol, and blood pressure levels. By providing us with
                 companionship, pets can help us manage loneliness and despair.
               </p>
-              <div className="giveFood">
-              <hr className="hrStyleTwo" />
-                <h3>
-                  Should Give To{" "}
-                  <span style={{color: "brown" }}>
-                    {details.name}
-                  </span>
-                </h3>
-                <hr className="hrStyleTwo" />
-                <ul>
-                  <li>{details.VitaminOne}</li>
-                  <li>{details.VitaminTwo}</li>
-                  <li>{details.VitaminThree}</li>
-                  <li>{details.VitaminFour}</li>
-                  <li>{details.VitaminFive}</li>
-                  <li>{details.VitaminSix}</li>
-                  <li>{details.VitaminSeven}</li>
-                </ul>
-              </div>
+              
               {/* shouldn't give to  */}
               <div className="giveFood">
-              <hr className="hrStyleThree" />
+                <hr className="hrStyleThree" />
                 <h3>
                   Should Not Give To{" "}
-                  <span style={{color: "brown" }}>
-                    {details.name}
-                  </span>
+                  <span style={{ color: "brown" }}>{details.name}</span>
                 </h3>
                 <hr className="hrStyleThree" />
                 <ul>
@@ -92,6 +72,92 @@ const FoodDetails = () => {
                 </ul>
               </div>
             </div>
+          </Col>
+        </Row>
+      </Container>
+
+      <div className="mb-5 giveFood">
+        <hr className="hrStyle mt-5" />
+        <h3>
+          Should Give To <span style={{ color: "brown" }}>{details.name}</span>
+        </h3>
+        <hr className="hrStyle" />
+      </div>
+      <Container className="allEatFoodName">
+        <Row xs={3} className="g-4 ">
+          <Col>
+            <Card className="threeImage">
+              <Card.Img variant="top" src={details.ImageOne} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminOne}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="threeImage">
+              <Card.Img variant="top" src={details.ImageTwo} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminTwo}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="threeImage">
+              <Card.Img variant="top" src={details.ImageThree} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminThree}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="allEatFoodName">
+        <Row xs={4} className="g-4 my-4 mb-5">
+          <Col>
+            <Card className="fourImage">
+              <Card.Img variant="top" src={details.ImageFour} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminFour}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="fourImage">
+              <Card.Img variant="top" src={details.ImageFive} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminFive}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="fourImage">
+              <Card.Img variant="top" src={details.ImageSix} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminSix}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="fourImage">
+              <Card.Img variant="top" src={details.ImageSeven} />
+              <Card.Body>
+                <Card.Title>
+                  <h5>{details.VitaminSeven}</h5>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>

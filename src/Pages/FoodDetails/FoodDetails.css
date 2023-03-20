@@ -40,3 +40,30 @@
 .giveFood h3{
     font-weight: bold;
 }
+.eatFoodImage img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.threeImage{
+    border: 1px solid rgba(165, 42, 42, 0.279);
+    height: 390px;
+    width: 420px;
+}
+.threeImage img{
+    height: 330px;
+    border: 2px solid rgba(165, 42, 42, 0.606);
+}
+.fourImage{
+    border: 1px solid rgba(165, 42, 42, 0.279);
+    height: 350px;
+    width: 320px;
+}
+.fourImage img{
+    height: 280px;
+    border: 2px solid rgba(165, 42, 42, 0.606);
+}
+.allEatFoodName h5{
+    font-weight: bolder;
+    font-size: 20px;
+}
